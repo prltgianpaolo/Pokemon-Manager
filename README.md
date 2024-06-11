@@ -46,7 +46,7 @@ CONFIGURAZIONE DEL PROGETTO:
     Crea i file .ejs e gli scripts .js utili per l'applicazione
 
  8. Avvio del server =>
-    Avvia il server eseguendo npm run dev sia nel front che nel back. Il server sarà avviato all'indirizzo http://localhost:8000.
+    Avvia il server eseguendo npm run dev sia nel front che nel back. Il server sarà avviato all'indirizzo http://localhost:3000.
 
 STRUTTURA DEL PROGETTO:
 
