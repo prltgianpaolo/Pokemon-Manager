@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex</title>
+  <link rel="stylesheet" href="/style/output.css">
+</head>
+<body class="bg-gradient-to-r from-red-500 to-white text-gray-900 min-h-screen flex flex-col items-center">
+  <h1 class="text-4xl text-black font-bold my-8">Pokédex</h1>
+  
+  <div class="flex justify-center mb-4 w-full text-white">
+    <input type="text" id="searchInput" class="border p-2 rounded w-1/2 shadow-lg" placeholder="Search by name or type">
+  </div>
+
+  <div id="pokemon-container" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-full px-8">
+  </div>
+
+  <div class="absolute top-0 right-0 m-8">
+    <a href="/collection" class="text-xl text-black underline">Go to My Pokédex</a>
+  </div>
+  
+  <script src="/scripts.js"></script>
+</body>
+</html>
+
